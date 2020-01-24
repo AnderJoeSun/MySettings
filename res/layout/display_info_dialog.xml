@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="5dip" android:orientation="horizontal"
+		android:gravity="center">
+
+		<TextView android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="1" android:textSize="15sp" android:singleLine="true"
+			android:text="@string/dinsity" android:gravity="right|center_vertical" />
+
+		<TextView android:id="@+id/density_tv" android:layout_width="0dip"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:textSize="15sp" android:singleLine="true" android:gravity="left|center_vertical" />
+
+
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="5dip" android:orientation="horizontal"
+		android:gravity="center">
+
+		<TextView android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="1" android:textSize="15sp" android:singleLine="true"
+			android:text="@string/sizeInPixel" android:gravity="right|center_vertical" />
+
+		<TextView android:id="@+id/sizeInPixel_tv"
+			android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="1" android:textSize="15sp" android:singleLine="true"
+			android:gravity="left|center_vertical" />
+
+
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="5dip" android:orientation="horizontal"
+		android:gravity="center">
+
+		<TextView android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="1" android:textSize="15sp" android:singleLine="true"
+			android:text="@string/sizeInPixelWithoutNavigationBar" android:gravity="right|center_vertical" />
+
+		<TextView android:id="@+id/sizeInPixelWithoutNavigationBar_tv"
+			android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="1" android:textSize="15sp" android:singleLine="true"
+			android:gravity="left|center_vertical" />
+
+
+	</LinearLayout>
+
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="5dip" android:orientation="horizontal"
+		android:gravity="center">
+
+		<TextView android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="1" android:textSize="15sp" android:singleLine="true"
+			android:text="@string/statusBarHeight" android:gravity="right|center_vertical" />
+
+		<TextView android:id="@+id/statusBarHeight_tv"
+			android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="1" android:textSize="15sp" android:singleLine="true"
+			android:gravity="left|center_vertical" />
+
+
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="5dip" android:orientation="horizontal"
+		android:gravity="center">
+
+		<TextView android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="1" android:textSize="15sp" android:singleLine="true"
+			android:text="@string/navigationBarHeight" android:gravity="right|center_vertical" />
+
+		<TextView android:id="@+id/navigationBarHeight_tv"
+			android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="1" android:textSize="15sp" android:singleLine="true"
+			android:gravity="left|center_vertical" />
+
+
+	</LinearLayout>
+
+</LinearLayout>

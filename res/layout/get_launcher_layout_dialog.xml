@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent" 
+	android:id="@+id/get_launcher_layout_message_layout" >
+
+    <TextView
+        android:id="@+id/get_launcher_layout_message_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="9dp"
+        android:layout_gravity="center_vertical"
+        android:text="@string/getting_layout"
+        />
+</LinearLayout>

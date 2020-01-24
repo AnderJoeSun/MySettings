@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">我的设置</string>
+    <string name="udb_activity_name">调试开关</string>
+    <string name="action_settings">MySettings</string>
+    
+    <string name="development_settings_title">开发者选项</string>
+    <string name="getLauncherLayout">获取桌面布局</string>
+    <string name="getting_layout">"请先安装GetLayouService.apk并确保当前的Launcher的AndroidManifest.xml中已添加：“android:sharedUserId='android.uid.launcher2'”，若尚未添加，请添加后重新编译Launcher并安装后再试。"</string>
+    <string name="getBaseIntentsOfRecentTasks">"获取最近运行的6个应用的包名和类名"</string>
+    <string name="getBaseIntentsOfAllImes">"获取所有已安装的输入法的包名和类名"</string>
+    
+    <string name="display_settings_title">显示</string>
+    <string name="brightness">亮度</string>
+    
+    <string name="displayinfo">屏幕信息</string>
+    <string name="dinsity">屏幕密度：</string>
+    <string name="sizeInPixel">屏幕逻辑点数(dip)：</string>
+    <string name="sizeInPixelWithoutNavigationBar">屏幕活动区域(dip)：</string>
+    <string name="statusBarHeight">状态栏高度(dip)：</string>
+    <string name="navigationBarHeight">导航栏高度(dip)：</string>
+    
+    <string name="getSizeAndSendViaBt">getSizeAndSendViaBt</string>
+    <string name="receiveSizeAndSet">receiveSizeAndSet</string>
+    
+    
+    
+    <!--  Help URLs for some screens. Not specified here. Specified in product overlays --><skip/>
+    <!-- Help menu label [CHAR LIMIT=20] -->
+    <string name="help_label">Help</string>
+    
+    <!-- Security Picker --><skip />
+    <!--  Title for security picker to choose the unlock method: None/Pattern/PIN/Password [CHAR LIMIT=22] -->
+    <string name="lock_settings_picker_title">Choose screen lock</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<preference-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+    
+    <!-- Development -->
+    <header
+        android:id="@+id/development_settings"
+        android:fragment="me.zhengnian.mysettings.developement.DevelopmentSettings"
+        android:icon="@drawable/ic_settings_development"
+        android:title="@string/development_settings_title" />
+
+    <!-- Display -->
+    <header
+        android:id="@+id/display_settings"
+        android:icon="@drawable/ic_settings_display"
+        android:fragment="me.zhengnian.mysettings.display.DisplaySettings"
+        android:title="@string/display_settings_title" />
+
+
+</preference-headers>
